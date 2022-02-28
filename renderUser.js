@@ -1,8 +1,7 @@
-import { getUser } from "./getUser.js";
+import { getUser as findUser } from "./getUser.js";
 import { resultsElement } from "./index.js";
-import { searchElement, searchForUser } from "./searchUser.js";
 
-getUser();
+findUser();
 export const renderChar = function (data) {
   console.log(data);
   data.data.map((result) => {
