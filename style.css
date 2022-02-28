@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 2px solid blue;
+  padding: 0 50px 0 30px;
+  background: url("img/bg/grad.jpg");
+}
+
+.img--logo {
+  width: 150px;
+}
+
+.right ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 25px;
+}
+
+.right ul li {
+  margin: 10px;
+  font-size: 24px;
+
+  font-weight: bold;
+}
+
+.right ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.right ul li a:hover {
+  color: whitesmoke;
+}
+
+#search {
+  margin-left: 40px;
+  border-radius: 10px;
+}
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background: url("img/bg/621.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.user {
+  border: 4px solid white;
+  border-radius: 4px;
+  padding: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.user h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+.user img {
+  height: 450px;
+}
